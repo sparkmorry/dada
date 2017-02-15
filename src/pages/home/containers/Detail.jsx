@@ -34,8 +34,8 @@ export default class Cart extends Component {
 
   check() {
     this.refs.check.style.color = 'white';
-    this.refs.check.style.background = '#FF6A00';
-    this.refs.check.style.border = 'solid 3px #FF6A00';
+    this.refs.check.style.background = '#FF2851';
+    this.refs.check.style.border = 'solid 3px #FF2851';
   }
 
   render() {
