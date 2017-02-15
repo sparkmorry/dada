@@ -1,0 +1,22 @@
+{
+  "name": "dada",
+  "scripts": {
+    "lint": "eslint -c ./.eslintrc --ext=.js --ext=.jsx ./src",
+    "lint:fix": "eslint -c ./.eslintrc --ext=.js --ext=.jsx --fix ./src"
+  },
+  "dependencies": {
+    "@ali/ice": "^2.0.55",
+    "@ali/ice-icon": "^0.2.11",
+    "@ali/ice-layout": "^0.4.4",
+    "@ali/ice-title": "^0.2.1",
+    "@alife/dpl-ice-daren": "^1.0.8",
+    "react-router": "^3.0.2",
+    "react-router-transition": "^0.0.6"
+  },
+  "devDependencies": {
+    "@ali/eslint-config-tbfed": "^0.4.0",
+    "eslint": "^3.13.1",
+    "babel-eslint": "^6.1.2",
+    "eslint-plugin-react": "^6.2.0"
+  }
+}

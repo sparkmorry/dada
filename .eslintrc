@@ -1,0 +1,5 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "extends": "./node_modules/@ali/eslint-config-tbfed/index.js"
+}

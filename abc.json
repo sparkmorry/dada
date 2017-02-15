@@ -1,0 +1,17 @@
+{
+  "name": "dada",
+  "type": "ice",
+  "repository": {
+    "type": "project",
+    "uuid": "1b8lpnf17-724660"
+  },
+  "builder": "@ali/builder-ice",
+  "generatorVersion": "v2",
+  "options": {
+    "iceType": "fed",
+    "tabSize": 2,
+    "extractCSS": true,
+    "wrapReact": true,
+    "themePackage": "@alife/dpl-ice-daren"
+  }
+}
