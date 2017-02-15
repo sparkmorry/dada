@@ -14,8 +14,8 @@ export default class Menu extends Component {
 
   render() {
     return (
-    <div className = "item">
-      <img className="thumb" src="images/1.jpg" alt="" />
+    <div className="item">
+      <img className="thumb" src="src/pages/home/images/1.jpg" alt="" />
       <div className="desc">牛排 <span className="price">$11.00</span></div>
     </div>
     );
