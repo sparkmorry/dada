@@ -16,7 +16,7 @@ export default class App extends Component {
   render() {
     return (
     <div className="wrapper">
-      <ReactCSSTransitionGroup component="div" transitionName="pop" transitionEnterTimeout={ 500 } transitionLeaveTimeout={ 500 }>
+      <ReactCSSTransitionGroup component="div" transitionName="fade" transitionEnterTimeout={ 0 } transitionLeaveTimeout={ 0 }>
         { React.cloneElement(this.props.children, {
             key: this.props.location.pathname
           }) }

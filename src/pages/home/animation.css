@@ -1,26 +1,26 @@
 
-.example-enter {
+.fade-enter {
   opacity: 0.01;
   transition: opacity .5s ease-in;
 }
 
-.example-enter.example-enter-active {
+.fade-enter.fade-enter-active {
   opacity: 1;
 }
 
-.example-leave {
+.fade-leave {
   opacity: 1;
   transition: opacity .5s ease-in;
 }
 
-.example-leave.example-leave-active {
+.fade-leave.fade-leave-active {
   opacity: 0;
 }
 
 
 .pop-enter {
-  transform: scale(0.1);
-  transition: opacity .5s ease-in;
+  transform: scale(0);
+  transition: transform .5s;
 }
 
 .pop-enter.pop-enter-active {
@@ -29,10 +29,10 @@
 
 .pop-leave {
   transform: scale(1);
-  transition: opacity .5s ease-in;
+  transition: transform .5s;
 }
 
 .pop-leave.pop-leave-active {
-  transform: scale(0.1);
+  transform: scale(0);
 }
 

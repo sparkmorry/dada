@@ -6,6 +6,7 @@ import { hashHistory, Router, Route, IndexRoute, Link } from 'react-router';
 
 // 载入默认全局样式 normalize 、.clearfix 和一些 mixin 方法等
 import '@ali/ice/global.scss';
+import './animation.css';
 import './index.css';
 // 当前 page 的主程序
 import App from './App';
